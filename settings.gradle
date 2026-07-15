@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        // 国内镜像优先，加速插件下载
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        // 国内镜像优先（google 镜像含 AndroidX，public 镜像含 Maven Central / 高德 SDK）
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "FakeLocation"
+include ':app'

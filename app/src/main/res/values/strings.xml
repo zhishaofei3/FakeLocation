@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">简易模拟定位</string>
+
+    <!-- 搜索 -->
+    <string name="hint_search">搜索地点或关键字</string>
+    <string name="search">搜索</string>
+
+    <!-- 操作按钮 -->
+    <string name="start_mock">开始模拟定位</string>
+    <string name="stop_mock">停止模拟定位</string>
+    <string name="tip_select_location">长按地图或搜索选择目标位置</string>
+
+    <!-- 状态提示 -->
+    <string name="mock_running">模拟定位运行中</string>
+    <string name="mock_stopped">模拟定位已停止</string>
+    <string name="notification_title">虚拟定位运行中</string>
+    <string name="notification_text">正在模拟位置：%1$s</string>
+    <string name="notification_channel_name">模拟定位服务</string>
+    <string name="notification_channel_desc">持续推送虚拟位置到系统</string>
+
+    <!-- 错误提示 -->
+    <string name="error_dev_mode">请先在系统设置中开启开发者选项</string>
+    <string name="error_mock_app">请先在开发者选项中将本应用设为「模拟位置信息应用」</string>
+    <string name="error_search_empty">请输入搜索关键字</string>
+    <string name="error_search_failed">搜索失败：%1$s</string>
+    <string name="error_no_result">未找到相关地点</string>
+    <string name="error_select_first">请先选择一个目标位置</string>
+
+    <!-- 已选位置 -->
+    <string name="selected_location">已选位置：%1$s</string>
+    <string name="coord_format">经度：%1$.6f  纬度：%2$.6f</string>
+</resources>

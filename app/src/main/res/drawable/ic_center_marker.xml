@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="42dp"
+    android:height="42dp"
+    android:viewportWidth="42"
+    android:viewportHeight="42">
+    <!-- 阴影圆 -->
+    <path
+        android:name="shadow"
+        android:pathData="M21,40 A19,19 0 1,0 21,2 A19,19 0 1,0 21,40 Z"
+        android:fillColor="#33000000" />
+    <!-- 水滴主体 -->
+    <path
+        android:name="pin"
+        android:pathData="M21,3 C12.2,3 5,10.2 5,19 C5,29 21,39 21,39 C21,39 37,29 37,19 C37,10.2 29.8,3 21,3 Z"
+        android:fillColor="#FF1565C0" />
+    <!-- 内部白色圆 -->
+    <path
+        android:name="hole"
+        android:pathData="M21,13 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 Z"
+        android:fillColor="#FFFFFFFF" />
+</vector>

@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+
+# Local configuration
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Keystore（签名密钥，不应提交到公开仓库）
+*.keystore
+*.jks
+
+# APK / 构建产物
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# 日志
+*.log

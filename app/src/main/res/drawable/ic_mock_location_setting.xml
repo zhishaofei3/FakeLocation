@@ -1,0 +1,63 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- 手机外框 -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="2"
+        android:pathData="M18,6 L46,6 C48.2,6 50,7.8 50,10 L50,54 C50,56.2 48.2,58 46,58 L18,58 C15.8,58 14,56.2 14,54 L14,10 C14,7.8 15.8,6 18,6 Z" />
+    <!-- 屏幕 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#A5D6A7"
+        android:strokeWidth="1"
+        android:pathData="M17,12 L47,12 L47,52 L17,52 Z" />
+    <!-- 标题栏 -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M17,12 L47,12 L47,17 L17,17 Z" />
+    <!-- 标题文字示意 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M19,14 L36,14 L36,15.5 L19,15.5 Z" />
+    <!-- 列表项 -->
+    <path
+        android:fillColor="#F1F8E9"
+        android:strokeColor="#C8E6C9"
+        android:strokeWidth="0.8"
+        android:pathData="M19,20 L45,20 L45,27 L19,27 Z" />
+    <path
+        android:fillColor="#F1F8E9"
+        android:strokeColor="#C8E6C9"
+        android:strokeWidth="0.8"
+        android:pathData="M19,28 L45,28 L45,35 L19,35 Z" />
+    <!-- 选中项：高亮 -->
+    <path
+        android:fillColor="#C8E6C9"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1.2"
+        android:pathData="M19,36 L45,36 L45,43 L19,43 Z" />
+    <!-- 选中项文字示意 -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M21,39 L40,39 L40,40.5 L21,40.5 Z" />
+    <!-- 勾选标记 -->
+    <path
+        android:fillColor="#388E3C"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="1.5"
+        android:pathData="M40,38.5 L42,40.5 L44.5,37" />
+    <!-- 其他列表项 -->
+    <path
+        android:fillColor="#F1F8E9"
+        android:strokeColor="#C8E6C9"
+        android:strokeWidth="0.8"
+        android:pathData="M19,44 L45,44 L45,51 L19,51 Z" />
+    <!-- 底部 Home 指示条 -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M26,55 L38,55 L38,56.5 L26,56.5 Z" />
+</vector>

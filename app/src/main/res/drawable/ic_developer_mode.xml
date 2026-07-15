@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- 手机外框 -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:strokeColor="#1976D2"
+        android:strokeWidth="2"
+        android:pathData="M18,6 L46,6 C48.2,6 50,7.8 50,10 L50,54 C50,56.2 48.2,58 46,58 L18,58 C15.8,58 14,56.2 14,54 L14,10 C14,7.8 15.8,6 18,6 Z" />
+    <!-- 屏幕 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#90CAF9"
+        android:strokeWidth="1"
+        android:pathData="M17,12 L47,12 L47,52 L17,52 Z" />
+    <!-- 齿轮图标 -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M32,24 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#1976D2"
+        android:strokeColor="#1976D2"
+        android:strokeWidth="1.5"
+        android:pathData="M32,18 L32,21 M32,27 L32,30 M26,24 L29,24 M35,24 L38,24 M27.5,19.5 L29.5,21.5 M34.5,26.5 L36.5,28.5 M27.5,28.5 L29.5,26.5 M34.5,21.5 L36.5,19.5" />
+    <!-- 文字线条示意 -->
+    <path
+        android:strokeColor="#90CAF9"
+        android:strokeWidth="1.5"
+        android:pathData="M22,36 L42,36 M22,40 L38,40 M22,44 L40,44" />
+    <!-- 底部 Home 指示条 -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M26,55 L38,55 L38,56.5 L26,56.5 Z" />
+</vector>
